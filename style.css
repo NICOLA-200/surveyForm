@@ -2,8 +2,8 @@
 
 :root {
   --color-white: #f3f3f3;
-  --color-darkblue: #1b1b32;
-  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-darkblue: #6a6a6f;
+  --color-darkblue-alpha: rgba(133, 133, 137, 0.8);
   --color-green: #37af65;
 }
 
@@ -34,10 +34,10 @@ body::before {
   background: var(--color-darkblue);
   background-image: linear-gradient(
       115deg,
-      rgba(178, 178, 178, 0.8),
-      rgba(184, 184, 242, 0.7)
+      rgba(178, 178, 178, 0.581),
+      rgba(184, 184, 242, 0.445)
     ),
-    url(https://unsplash.com/photos/vw3Ahg4x1tY);
+    url(https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGh0bWx8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
